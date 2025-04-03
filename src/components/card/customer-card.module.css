@@ -1,0 +1,13 @@
+.titleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.sort{
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -1,0 +1,17 @@
+.sidebarItem{
+display: flex;
+justify-content: start;
+align-items: center;
+padding: 12px 20px 12px 20px;
+color: black;
+}
+.icon{
+    margin-right: 8px;
+}
+
+.link{
+    text-decoration: none;
+}
+.active{
+    font-weight: bold;
+}

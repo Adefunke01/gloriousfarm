@@ -1,0 +1,31 @@
+.dashboardCard {
+display: flex;
+justify-content: left;
+flex-direction: column;
+}
+.percentageContainer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.percentage{
+    font-weight: 500;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+.description{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.link{
+    padding-top: 16px;
+    margin-top: 16px;
+    font-size: 8px;
+}

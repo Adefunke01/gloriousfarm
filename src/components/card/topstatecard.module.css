@@ -1,0 +1,21 @@
+.stateContainer{
+
+}
+.title {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .name{
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .population{
+    font-weight: 500;
+    font-size: 10px;
+  }
+  .stateBar{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1px;
+    background: linear-gradient(90deg, #FFCD71 -2.57%, rgba(255, 205, 113, 0) 112.5%);
+  }

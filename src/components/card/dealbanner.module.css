@@ -1,0 +1,18 @@
+.dealBanner{
+    background-color: rgba(255, 247, 232, 1);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-right: 10px;
+    margin-bottom: 6px;
+    padding-top: 4px ;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;;
+}
+.dealImage{
+    width: 24px;
+    height: 24px;
+}

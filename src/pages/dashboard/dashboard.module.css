@@ -1,0 +1,32 @@
+.mainContainer{
+    display: flex;
+    justify-content: start;
+    margin: 20px;
+}
+.mainContent{
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: 310px;
+}
+
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.dealContainer{
+    display: flex;
+    justify-content:start;
+    flex-wrap: wrap;
+}
+.heading{
+    font-weight: bold;
+    font-size: 24px;
+}
+.cardContainer2rows{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px; 
+    margin-bottom: 16px;
+}

@@ -1,0 +1,49 @@
+.sidebarContainer{
+    height: 100vh;
+}
+
+.sidebar{
+    height: calc(100% - 50px);
+    min-width: 280px;
+    max-width: 320px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    background-color: white;
+    border-radius: 16px;
+    position: fixed;
+}
+.input{
+    border-radius: 20px;
+    padding: 12px 30px 12px 40px;
+    border: none;
+}
+.itemContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchIcon{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.inputContainer{
+    position: relative;
+}
+.logoContainer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.titleLogo{
+    width: 21px;
+    height: 21px;
+}
+.titleText{
+font-weight: bolder;
+color:  rgba(19, 19, 19, 1);
+font-size: 20px;
+}
